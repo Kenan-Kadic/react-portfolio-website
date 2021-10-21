@@ -1,4 +1,4 @@
-import "./portfolio.scss"
+import "./portfolio.scss";
 
 export default function Portfolio() {
     return (
