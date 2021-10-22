@@ -7,11 +7,19 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+    //allow for snap scrolling to work correctly
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; // for Firefox browser
+    &::-wekit-scrollbar {
+      // for other browsers
+      display: none;
+    }
 
-    // for each element inside of Apps--all the component sections
+    // for each element inside of Apps--all the component sections basically
     > * {
       width: 100vw;
       height: calc(100vh - 70px);
+      scroll-snap-align: start;
     }
   }
 }
