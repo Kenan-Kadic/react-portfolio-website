@@ -4,5 +4,6 @@
   background-color: #15023a;
   position: fixed;
   top: 0;
+  //z index allows top bar to stay visible even when you scroll down the page
   z-index: 2;
 }
