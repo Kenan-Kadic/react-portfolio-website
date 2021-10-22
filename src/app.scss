@@ -1,3 +1,17 @@
 .app {
   height: 100vh;
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+
+    // for each element inside of Apps--all the component sections
+    > * {
+      width: 100%;
+      height: calc(100vh - 70px);
+    }
+  }
 }
