@@ -7,6 +7,8 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+    // allows for smoother and slower scrolling - this also effects snap scrolling and makes it smoother
+    scroll-behavior: smooth;
     //allow for snap scrolling to work correctly
     scroll-snap-type: y mandatory;
     scrollbar-width: none; // for Firefox browser

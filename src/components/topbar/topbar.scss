@@ -1,9 +1,17 @@
-@import "../../global.scss" .topbar {
+@import "../../global.scss";
+
+.topbar {
   width: 100%;
   height: 70px;
-  background-color: #15023a;
+  background-color: white;
+  color: $mainColor;
   position: fixed;
   top: 0;
   //z index allows top bar to stay visible even when you scroll down the page
   z-index: 2;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+  }
 }
