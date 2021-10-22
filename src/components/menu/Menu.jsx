@@ -8,16 +8,16 @@ export default function Menu() {
                     <a href="#intro">Home</a>
                 </li>
                 <li>
-                    <a href="#intro">Home</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#intro">Home</a>
+                    <a href="#works">Works</a>
                 </li>
                 <li>
-                    <a href="#intro">Home</a>
+                    <a href="#testimonials">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#intro">Home</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
             
