@@ -15,7 +15,27 @@ export default function Portfolio() {
                 <div className="item">
                     <img src="assets/bank.jpg" alt=""/>
                         <h3>Banking App</h3>
+            </div>
+            <div className="item">
+                    <img src="assets/bank.jpg" alt=""/>
+                        <h3>Banking App</h3>
                 </div>
+            <div className="item">
+                    <img src="assets/bank.jpg" alt=""/>
+                        <h3>Banking App</h3>
+            </div>
+            <div className="item">
+                    <img src="assets/bank.jpg" alt=""/>
+                        <h3>Banking App</h3>
+            </div>
+            <div className="item">
+                    <img src="assets/bank.jpg" alt=""/>
+                        <h3>Banking App</h3>
+            </div>
+            <div className="item">
+                    <img src="assets/bank.jpg" alt=""/>
+                        <h3>Banking App</h3>
+            </div>
             </div>
         </div>
     )
