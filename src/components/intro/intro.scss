@@ -50,6 +50,7 @@
       justify-content: center;
 
       @include mobile {
+        margin-top: 0;
         padding-left: 0;
         align-items: center;
       }
