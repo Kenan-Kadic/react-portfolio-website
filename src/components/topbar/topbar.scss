@@ -7,7 +7,6 @@
   color: $mainColor;
   position: fixed;
   top: 0;
-  //z index allows top bar to stay visible even when you scroll down the page
   z-index: 3;
   transition: all 1s ease;
 
@@ -69,14 +68,13 @@
       }
     }
   }
-  //and if there is an active
+
   &.active {
     background-color: $mainColor;
     color: white;
 
     .hamburger {
       span {
-        // and first child means the first line
         &:first-child {
           background-color: white;
           transform: rotate(45deg);
