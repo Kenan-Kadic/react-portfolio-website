@@ -1,3 +1,5 @@
+//the portfolio list
+
 import "./portfolioList.scss";
 
 export default function PortfolioList({ id, title, active, setSelected }) {
