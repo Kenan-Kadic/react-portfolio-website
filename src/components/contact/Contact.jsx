@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./contact.scss";
 
 export default function Contact() {
@@ -19,7 +20,7 @@ export default function Contact() {
                     <input type="text" placeholder="Email"/>
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Thanks, I will reply ASAP</span>}
+                    {message && <span>Thanks, I will reply ASAP.</span>}
                 </form>        
         </div>
         </div>
