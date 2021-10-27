@@ -9,7 +9,6 @@
     align-items: center;
   }
 
-  //splitting page in half
   .left {
     flex: 0.5;
     overflow: hidden;
@@ -37,6 +36,7 @@
       }
     }
   }
+
   .right {
     flex: 0.5;
     position: relative;
@@ -62,17 +62,19 @@
           font-size: 40px;
         }
       }
+
       h2 {
         font-size: 35px;
       }
       h3 {
         font-size: 30px;
+
         @include mobile {
           font-size: 20px;
         }
 
         span {
-          font-size: 30px;
+          font-size: inherit;
           color: lightseagreen;
         }
 
