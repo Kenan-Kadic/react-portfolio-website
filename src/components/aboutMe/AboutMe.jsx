@@ -1,4 +1,4 @@
-import "./testimonials.scss";
+import "./aboutMe.scss";
 
 export default function Testimonials() {
   const data = [
@@ -35,8 +35,8 @@ export default function Testimonials() {
     },
   ];
   return (
-    <div className="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
+    <div className="aboutMe" id="aboutMe">
+      <h1>About Me</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
