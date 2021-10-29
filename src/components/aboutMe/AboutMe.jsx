@@ -6,33 +6,27 @@ export default function Testimonials() {
       id: 1,
       name: "Kenan Kadic",
       title: "Before Coding",
-      img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/twitter.png",
-      desc:
-        `I was an English professor with a Masters Degree in English Literature.
+      img: "assets/slu.png",
+       desc:
+        `I was an English professor with a Masters Degree in English Literature, and I taught at Saint Louis University.
          I also worked remotely for 6 years handling rental payments for Enterprise-Rent-A-Car.`,
     },
     {
       id: 2,
       name: "Kenan Kadic",
       title: "During LaunchCode",
-      img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
+      img: "assets/launchcode.png",
       desc:
-        "In January 2020, I studied LC101, which introduced me to Web Development. Five months later I graduated, and then joined the LiftOff course. I finished that course in October and made my LC CornerStone project.",
+        "In January 2020, I studied LC101, a course on Web Development. Five months later I graduated, and then joined the LiftOff course. I finished that course in October 2020 and made my LC Cornerstone project.",
       featured: true,
     },
     {
       id: 3,
       name: "Kenan Kadic",
       title: "After LaunchCode",
-      img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
+      img: "assets/react.png",
       desc:
-        "I worked to improve my knowldge by studying courses on Udemy and I taught myself how to work in React. I created CodewithKenan.com as a website to host my portfolio.",
+        "I worked to improve my skills by studying about Javascript and Web Development on Udemy and I taught myself how to work in React. I created codewithkenan.com using React to host my portfolio.",
     },
   ];
   return (
@@ -48,7 +42,7 @@ export default function Testimonials() {
                 src={d.img}
                 alt=""
               />
-              <img className="right" src={d.icon} alt="" />
+              <div className="right" />
             </div>
             <div className="center">
               {d.desc}
