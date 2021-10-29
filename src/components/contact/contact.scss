@@ -27,6 +27,7 @@
     h2 {
       font-size: 30px;
     }
+
     form {
       width: 70%;
       height: 70%;
@@ -44,6 +45,10 @@
           width: 200px;
           height: 20px;
         }
+
+        label {
+          font-size: x-large;
+        }
       }
 
       textarea {
@@ -53,7 +58,7 @@
 
         @include mobile {
           width: 200px;
-          height: 100px;
+          height: 75px;
         }
       }
 
