@@ -48,7 +48,6 @@ export default function Testimonials() {
               {d.desc}
             </div>
             <div className="bottom">
-              <h3>{d.name}</h3>
               <h4>{d.title}</h4>
             </div>
           </div>
