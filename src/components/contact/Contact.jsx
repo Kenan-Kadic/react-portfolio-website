@@ -17,20 +17,6 @@ export default function Contact() {
                 
         <form onSubmit={handleSubmit}>
         
-        <label htmlFor="subject">
-          Subject
-        </label>
-        
-        <input
-          id="subject"
-          type="subject" 
-          name="subject"
-        />
-        <ValidationError 
-          prefix="Subject" 
-          field="subject"
-          errors={state.errors}
-        />
         <label htmlFor="message">            
           Message
         </label>
