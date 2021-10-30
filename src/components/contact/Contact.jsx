@@ -16,7 +16,19 @@ export default function Contact() {
             <h2>Contact</h2>
                 
         <form onSubmit={handleSubmit}>
-        
+        <label htmlFor="email">
+        Email Address
+      </label>
+      <input
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
         <label htmlFor="message">            
           Message
         </label>

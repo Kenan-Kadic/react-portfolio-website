@@ -1,5 +1,9 @@
 @import "../../global.scss";
 
+.background {
+  background-color: white;
+}
+
 .contact {
   background-color: white;
   display: flex;
@@ -54,7 +58,7 @@
 
         @include mobile {
           width: 200px;
-          height: 100px;
+          height: 75px;
         }
       }
 
