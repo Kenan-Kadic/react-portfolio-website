@@ -5,7 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function Contact() {
     const [state, handleSubmit] = useForm("xvodjopy");
     if (state.succeeded) {
-        return <p>Thanks! I will respond ASAP.</p>;
+        return <p className="response">Thanks! I will respond ASAP.</p>;
     }
     return (
         <div className="contact" id="contact">
