@@ -11,7 +11,7 @@ export default function Intro() {
           showCursor: true,
           backDelay: 1500,
           backSpeed: 60,
-          strings: ["React", "JavaScript", "NodeJS", "TypeScript", "HTML", "CSS", "Sass"],
+          strings: ["React", "JavaScript", "Java", "NodeJS", "TypeScript", "HTML", "CSS", "Sass"],
         });
     }, [])
 
