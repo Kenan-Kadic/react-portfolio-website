@@ -41,7 +41,7 @@ export default function Portfolio() {
       case "java":
         setData(javaPortfolio);
         break;
-      case "contributor":
+      case "group":
         setData(groupPortfolio);
         break;
       default:
