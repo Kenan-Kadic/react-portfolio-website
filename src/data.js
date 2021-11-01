@@ -64,10 +64,10 @@ export const featuredPortfolio = [
     
   ];
   
-  export const contributorPortfolio = [
+  export const groupPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
+      title: "Collab Blog",
       img:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     },
@@ -79,7 +79,7 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Collab Blog",
+      title: "Coming Soon",
       img:
       "/assets/coming.png",
     },

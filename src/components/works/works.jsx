@@ -7,7 +7,7 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
+      title: "React Projects",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
@@ -16,7 +16,7 @@ export default function Works() {
     {
       id: "2",
       icon: "./assets/mobile.png",
-      title: "Mobile Application",
+      title: "Java Projects",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -25,7 +25,7 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/mobile.png",
-      title: "Branding",
+      title: "Group Projects",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:

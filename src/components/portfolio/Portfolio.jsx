@@ -5,7 +5,7 @@ import {
   featuredPortfolio,
   reactPortfolio,
   javaPortfolio,
-  contributorPortfolio,
+  groupPortfolio,
   } from "../../data";
 
 export default function Portfolio() {
@@ -18,15 +18,15 @@ export default function Portfolio() {
     },
     {
       id: "react",
-      title: "React App",
+      title: "React Projects",
     },
     {
       id: "java",
-      title: "Java App",
+      title: "Java Projects",
     },
     {
-      id: "contributor",
-      title: "Contributor",
+      id: "group",
+      title: "Group Projects",
     },
   ];
 
@@ -42,7 +42,7 @@ export default function Portfolio() {
         setData(javaPortfolio);
         break;
       case "contributor":
-        setData(contributorPortfolio);
+        setData(groupPortfolio);
         break;
       default:
         setData(featuredPortfolio);
