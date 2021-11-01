@@ -18,7 +18,7 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Flagship Phone Research",
       desc:
-        "Flagship Phones Reserach is a website that was made using Java, Spring Boot, HTML, CSS and Thymeleaf.",
+        "Flagship Phone Reserach is a website that was made using Java, Spring Boot, HTML, CSS and Thymeleaf.",
       img:
       "./assets/flagship.png",
     },
