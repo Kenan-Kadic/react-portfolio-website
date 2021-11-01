@@ -3,11 +3,10 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
-} from "../../data";
+  reactPortfolio,
+  javaPortfolio,
+  contributorPortfolio,
+  } from "../../data";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -18,20 +17,16 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "react",
+      title: "React App",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "java",
+      title: "Java App",
     },
     {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
+      id: "contributor",
+      title: "Contributor",
     },
   ];
 
@@ -40,17 +35,14 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "react":
+        setData(reactPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "java":
+        setData(javaPortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
-        break;
-      case "content":
-        setData(contentPortfolio);
+      case "contributor":
+        setData(contributorPortfolio);
         break;
       default:
         setData(featuredPortfolio);

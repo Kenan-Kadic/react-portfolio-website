@@ -37,7 +37,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const webPortfolio = [
+  export const reactPortfolio = [
     {
       id: 1,
       title: "Web Social Media App",
@@ -70,7 +70,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const mobilePortfolio = [
+  export const javaPortfolio = [
     {
       id: 1,
       title: "Mobile Social Media App",
@@ -110,7 +110,7 @@ export const featuredPortfolio = [
       },
   ];
   
-  export const designPortfolio = [
+  export const contributorPortfolio = [
     {
       id: 1,
       title: "Design Social Media App",
