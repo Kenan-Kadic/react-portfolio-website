@@ -27,7 +27,7 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Collab Blog",
       desc:
-        "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advise in tech while also contributing to building the platform that will house these blogs.",
+        "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advice in tech while also contributing to building the platform that will house these blogs.",
       img:
         "./assets/blog.png",
     },
