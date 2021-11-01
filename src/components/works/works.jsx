@@ -7,29 +7,29 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "React Projects",
+      title: "Code with Kenan",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "CodewithKenan.com is a React portfolio website that was created by using Javascript, HTML, CSS, SASS.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "./assets/codewithkenan.png",
     },
     {
       id: "2",
       icon: "./assets/mobile.png",
-      title: "Java Projects",
+      title: "Flagship Phone Research",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Flagship Phones Reserach is a website that was made using Java, Spring Boot, HTML, CSS and Thymeleaf.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      "./assets/flagship.png",
     },
     {
       id: "3",
       icon: "./assets/mobile.png",
-      title: "Group Projects",
+      title: "Collab Blog",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advise in tech while also contributing to building the platform that will house these blogs.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "./assets/blog.png",
     },
   ];
 
@@ -55,7 +55,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                 
                 </div>
               </div>
               <div className="right">

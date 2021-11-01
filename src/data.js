@@ -45,7 +45,7 @@ export const featuredPortfolio = [
   export const javaPortfolio = [
     {
       id: 1,
-      title: "Flagship Phones",
+      title: "Flagship Phone Reserach",
       img:
       "/assets/flagship.png",
     },
