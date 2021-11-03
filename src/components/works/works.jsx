@@ -11,7 +11,7 @@ export default function Works() {
       desc:
         "CodewithKenan.com is a React portfolio website that was created by using Javascript, HTML, CSS and SASS.",
       img:
-        "./assets/codewithkenan.png",
+        "./assets/codewithkenan2.png",
     },
     {
       id: "2",
@@ -20,7 +20,7 @@ export default function Works() {
       desc:
         "Flagship Phone Reserach is a website that was made using Java, Spring Boot, HTML, CSS and Thymeleaf.",
       img:
-      "./assets/flagship.png",
+      "./assets/flagship2.png",
     },
     {
       id: "3",
