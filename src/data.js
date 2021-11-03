@@ -27,6 +27,7 @@ export const featuredPortfolio = [
       title: "Code with Kenan",
       img: 
       "/assets/codewithkenan.png",
+      link: "http://www.codewithkenan.com"
     },
     {
       id: 2,
