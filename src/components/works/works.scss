@@ -125,6 +125,10 @@
           justify-content: center;
           overflow: hidden;
 
+          a {
+            overflow: hidden;
+          }
+
           img {
             width: 400px;
             transform: rotate(-10deg);

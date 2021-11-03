@@ -9,7 +9,7 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Code with Kenan",
       desc:
-        "CodewithKenan.com is a React portfolio website that was created by using Javascript, HTML, CSS, SASS.",
+        "CodewithKenan.com is a React portfolio website that was created by using Javascript, HTML, CSS and SASS.",
       img:
         "./assets/codewithkenan.png",
     },
@@ -59,8 +59,10 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
+              <a href="http://www.codewithkenan.com">
               <img src={d.img} 
                     alt=""/>
+              </a>
               </div>
             </div>
           </div>
