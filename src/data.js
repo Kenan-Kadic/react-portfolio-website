@@ -3,14 +3,14 @@ export const featuredPortfolio = [
       id: 1,
       title: "Code with Kenan",
       img:
-        "/assets/codewithkenan.png",
+        "/assets/codewithkenan2.png",
       link: "http://www.codewithkenan.com"
     },
     {
       id: 2,
       title: "Flagship Phones",
       img:
-        "/assets/flagship.png",
+        "/assets/flagship2.png",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Code with Kenan",
       img: 
-      "/assets/codewithkenan.png",
+      "/assets/codewithkenan2.png",
       link: "http://www.codewithkenan.com"
     },
     {
@@ -49,7 +49,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Flagship Phone Reserach",
       img:
-      "/assets/flagship.png",
+      "/assets/flagship2.png",
     },
     
     {
