@@ -21,7 +21,7 @@ export default function Works() {
       desc:
         "BlogwithNurses.com is a React website where Nurses can blog about any topic that interests them. It was made using Javascript, HTML, CSS, NodeJS and MongoDB.",
       img:
-      "./assets/nurseblog.png",
+      "./assets/nurseblog2.png",
       link: "http://www.blogwithnurses.com"
     },
     {
