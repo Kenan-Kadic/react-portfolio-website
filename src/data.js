@@ -8,9 +8,10 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Flagship Phones",
+      title: "Nurse Blog (in progress)",
       img:
-        "/assets/flagship2.png",
+        "/assets/nurseblog.png",
+      link: "http://www.blogwithnurses.com"
     },
     {
       id: 3,
@@ -31,9 +32,10 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Coming Soon",
+      title: "Nurse Blog (in progress)",
       img: 
-      "/assets/coming.png",
+      "/assets/nurseblog.png",
+      link: "http://www.blogwithnurses.com"
     },
     {
       id: 3,

@@ -12,15 +12,17 @@ export default function Works() {
         "CodewithKenan.com is a React portfolio website that was created by using Javascript, HTML, CSS and SASS.",
       img:
         "./assets/codewithkenan2.png",
+      link: "http://www.codewithkenan.com"
     },
     {
       id: "2",
       icon: "./assets/mobile.png",
-      title: "Flagship Phone Research",
+      title: "Nurse Blog (in progress)",
       desc:
-        "Flagship Phone Reserach is a website that was made using Java, Spring Boot, HTML, CSS and Thymeleaf.",
+        "BlogwithNurses.com is a React website where Nurses can blog about any topic that interests them. It was made using Javascript, HTML, CSS, NodeJS and MongoDB.",
       img:
-      "./assets/flagship2.png",
+      "./assets/nurseblog.png",
+      link: "http://www.blogwithnurses.com"
     },
     {
       id: "3",
@@ -30,6 +32,7 @@ export default function Works() {
         "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advice in tech while also contributing to building the platform that will house these blogs.",
       img:
         "./assets/blog.png",
+        
     },
   ];
 
@@ -53,16 +56,14 @@ export default function Works() {
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
                   </div>
-                  <h2>{d.title}</h2>
+                  <a href={d.link}><h2>{d.title}</h2></a>
                   <p>{d.desc}</p>
                  
                 </div>
               </div>
               <div className="right">
-              <a href="http://www.codewithkenan.com">
               <img src={d.img} 
-                    alt=""/>
-              </a>
+               alt=""/>
               </div>
             </div>
           </div>
