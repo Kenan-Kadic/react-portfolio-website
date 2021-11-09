@@ -67,6 +67,7 @@
         text-decoration: none;
         z-index: 1;
         color: white;
+        overflow: hidden;
       }
 
       img {
@@ -77,6 +78,7 @@
 
         @include mobile {
           margin-top: 10px;
+          overflow: hidden;
         }
       }
 

@@ -65,14 +65,11 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            
-            <img
+              <img
               src={d.img}
               alt=""
             />
-            
             <h3><a href={d.link}>{d.title}</a></h3>
-            
           </div>
         ))}
       </div>
