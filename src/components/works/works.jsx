@@ -17,9 +17,9 @@ export default function Works() {
     {
       id: "2",
       icon: "./assets/mobile.png",
-      title: "Nurse Blog (in progress)",
+      title: "Nurse Blog",
       desc:
-        "BlogwithNurses.com is a React website where Nurses can blog about any topic that interests them. It was made using Javascript, HTML, CSS, NodeJS and MongoDB.",
+        "BlogwithNurses.com is a React website that sets up a Blog for Nurses. It was made using HTML, CSS, SASS and JavaScript",
       img:
       "./assets/nurseblog2.png",
       link: "http://www.blogwithnurses.com"
