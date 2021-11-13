@@ -8,7 +8,7 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Nurse Blog (in progress)",
+      title: "Nurse Blog",
       img:
         "/assets/nurseblog2.png",
       link: "http://www.blogwithnurses.com"
@@ -32,7 +32,7 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Nurse Blog (in progress)",
+      title: "Nurse Blog",
       img: 
       "/assets/nurseblog2.png",
       link: "http://www.blogwithnurses.com"
