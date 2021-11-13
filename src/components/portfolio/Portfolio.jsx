@@ -6,7 +6,7 @@ import {
   reactPortfolio,
   javaPortfolio,
   groupPortfolio,
-  } from "../../data";
+} from "../../data";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -23,6 +23,10 @@ export default function Portfolio() {
     {
       id: "java",
       title: "Java Projects",
+    },
+    {
+      id: "design",
+      title: "Design",
     },
     {
       id: "group",
@@ -69,7 +73,7 @@ export default function Portfolio() {
               src={d.img}
               alt=""
             />
-            <h3><a href={d.link}>{d.title}</a></h3>
+            <h3>{d.title}</h3>
           </div>
         ))}
       </div>
