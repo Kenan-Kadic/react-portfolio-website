@@ -14,10 +14,6 @@
 
     img {
       height: 100%;
-
-      @include mobile {
-        height: calc(50vh -70px);
-      }
     }
   }
   .right {
