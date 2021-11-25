@@ -46,29 +46,7 @@ export const featuredPortfolio = [
     
   ];
   
-  export const javaPortfolio = [
-    {
-      id: 1,
-      title: "Flagship Phones",
-      img:
-      "/assets/flagship2.png",
-    },
-    
-    {
-      id: 2,
-      title: "Coming Soon",
-      img:
-      "/assets/coming.png",
-    },
-    {
-      id: 3,
-      title: "Coming Soon",
-      img:
-      "/assets/coming.png",
-    },
-    
-  ];
-  
+
   export const groupPortfolio = [
     {
       id: 1,

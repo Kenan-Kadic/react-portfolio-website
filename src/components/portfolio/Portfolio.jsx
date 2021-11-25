@@ -4,7 +4,6 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   reactPortfolio,
-  javaPortfolio,
   groupPortfolio,
 } from "../../data";
 
@@ -21,10 +20,6 @@ export default function Portfolio() {
       title: "React Projects",
     },
     {
-      id: "java",
-      title: "Java Projects",
-    },
-    {
       id: "group",
       title: "Group Projects",
     },
@@ -37,9 +32,6 @@ export default function Portfolio() {
         break;
       case "react":
         setData(reactPortfolio);
-        break;
-      case "java":
-        setData(javaPortfolio);
         break;
       case "group":
         setData(groupPortfolio);
