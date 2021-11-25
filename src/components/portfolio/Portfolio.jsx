@@ -25,10 +25,6 @@ export default function Portfolio() {
       title: "Java Projects",
     },
     {
-      id: "design",
-      title: "Design",
-    },
-    {
       id: "group",
       title: "Group Projects",
     },
