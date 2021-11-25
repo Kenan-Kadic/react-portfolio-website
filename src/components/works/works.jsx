@@ -32,7 +32,7 @@ export default function Works() {
         "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advice in tech while also contributing to building the platform that will house these blogs.",
       img:
         "./assets/blog.png",
-        
+      link: "https://github.com/LaunchCodeLiftoffProjects/open-source-starter-pack"  
     },
   ];
 

@@ -18,6 +18,7 @@ export const featuredPortfolio = [
       title: "Collab Blog",
       img:
       "/assets/blog.png",
+      link: "https://github.com/LaunchCodeLiftoffProjects/open-source-starter-pack"
     },
   
   ];
@@ -53,6 +54,7 @@ export const featuredPortfolio = [
       title: "Collab Blog",
       img:
       "/assets/blog.png",
+      link: "https://github.com/LaunchCodeLiftoffProjects/open-source-starter-pack"
     },
     {
       id: 2,
