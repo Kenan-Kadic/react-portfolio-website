@@ -34,16 +34,7 @@ export default function Works() {
         "./assets/subscribe.png",
       link: "https://react-subscribe-website.firebaseapp.com/"  
     },
-    {
-      id: "4",
-      icon: "./assets/mobile.png",
-      title: "Collab Blog",
-      desc:
-        "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advice in tech while also contributing to building the platform that will house these blogs.",
-      img:
-        "./assets/blog.png",
-      link: "https://github.com/LaunchCodeLiftoffProjects/open-source-starter-pack"  
-    },
+
   ];
 
   const handleClick = (way) => {
