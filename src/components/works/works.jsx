@@ -27,6 +27,16 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/mobile.png",
+      title: "Developer",
+      desc:
+        "Developer is a subsription based website for a Development Agency. It was created using HTML, React styled-compoenents, and JavaScript.",
+      img:
+        "./assets/subscribe.png",
+      link: "https://react-subscribe-website.firebaseapp.com/"  
+    },
+    {
+      id: "4",
+      icon: "./assets/mobile.png",
       title: "Collab Blog",
       desc:
         "Collab Blog is a place where LaunchCoders can blog about their experiences experiences and share their advice in tech while also contributing to building the platform that will house these blogs.",

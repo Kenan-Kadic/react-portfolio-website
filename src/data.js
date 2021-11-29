@@ -15,10 +15,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Collab Blog",
+      title: "Developer",
       img:
-      "/assets/blog.png",
-      link: "https://github.com/LaunchCodeLiftoffProjects/open-source-starter-pack"
+      "./assets/subscribe.png",
+      link: "https://react-subscribe-website.firebaseapp.com/"
     },
   
   ];
@@ -40,9 +40,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Coming Soon",
-      img: 
-      "/assets/coming.png",
+      title: "Developer",
+      img:
+      "/assets/subscribe.png",
+      link: "https://react-subscribe-website.firebaseapp.com/"
     },
     
   ];
