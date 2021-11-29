@@ -27,12 +27,12 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/mobile.png",
-      title: "Developer",
+      title: "Developer Agency",
       desc:
-        "Developer is a subsription based website for a Development Agency. It was created using HTML, React styled-compoenents, and JavaScript.",
+        "Developer agency is a subsription based website for companies who are in need of design. It was created using HTML, React styled-compoenents, and JavaScript.",
       img:
         "./assets/subscribe.png",
-      link: "https://react-subscribe-website.firebaseapp.com/"  
+      link: "http://yourdeveloperagency.com/"  
     },
 
   ];

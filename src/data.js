@@ -15,10 +15,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Developer",
+      title: "Developer Agency",
       img:
       "./assets/subscribe.png",
-      link: "https://react-subscribe-website.firebaseapp.com/"
+      link: "http://yourdeveloperagency.com/"
     },
   
   ];
@@ -40,10 +40,10 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Developer",
+      title: "Developer Agency",
       img:
       "/assets/subscribe.png",
-      link: "https://react-subscribe-website.firebaseapp.com/"
+      link: "http://yourdeveloperagency.com/"
     },
     
   ];
