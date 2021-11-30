@@ -32,7 +32,7 @@ export default function Works() {
         "Developer agency is a subsription based website for companies who are in need of design. It was created using HTML, React styled-compoenents, and JavaScript.",
       img:
         "./assets/subscribe.png",
-      link: "http://yourdeveloperagency.com/"  
+      link: "http://www.yourdeveloperagency.com/"  
     },
 
   ];

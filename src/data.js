@@ -18,7 +18,7 @@ export const featuredPortfolio = [
       title: "Developer Agency",
       img:
       "./assets/subscribe.png",
-      link: "http://yourdeveloperagency.com/"
+      link: "http://www.yourdeveloperagency.com/"
     },
   
   ];
@@ -43,7 +43,7 @@ export const featuredPortfolio = [
       title: "Developer Agency",
       img:
       "/assets/subscribe.png",
-      link: "http://yourdeveloperagency.com/"
+      link: "http://www.yourdeveloperagency.com/"
     },
     
   ];
